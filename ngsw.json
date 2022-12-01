@@ -1,0 +1,91 @@
+{
+  "configVersion": 1,
+  "timestamp": 1669934661561,
+  "index": "/qwixx/index.html",
+  "assetGroups": [
+    {
+      "name": "app",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "/qwixx/favicon.ico",
+        "/qwixx/index.html",
+        "/qwixx/main.11b409ee221c999a.js",
+        "/qwixx/manifest.webmanifest",
+        "/qwixx/polyfills.1354f926e0529e21.js",
+        "/qwixx/runtime.9e7fa70dc5ff117a.js",
+        "/qwixx/styles.9e5b4fd97a2ae8ed.css"
+      ],
+      "patterns": []
+    },
+    {
+      "name": "assets",
+      "installMode": "lazy",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "/qwixx/assets/equals-solid.svg",
+        "/qwixx/assets/icons/icon-128x128.png",
+        "/qwixx/assets/icons/icon-144x144.png",
+        "/qwixx/assets/icons/icon-152x152.png",
+        "/qwixx/assets/icons/icon-192x192.png",
+        "/qwixx/assets/icons/icon-384x384.png",
+        "/qwixx/assets/icons/icon-512x512.png",
+        "/qwixx/assets/icons/icon-72x72.png",
+        "/qwixx/assets/icons/icon-96x96.png",
+        "/qwixx/assets/minus-solid.svg",
+        "/qwixx/assets/plus-solid.svg",
+        "/qwixx/bootstrap-icons.35e09da2aecdd969.woff2",
+        "/qwixx/bootstrap-icons.cb4c7c05f3292543.woff"
+      ],
+      "patterns": []
+    }
+  ],
+  "dataGroups": [],
+  "hashTable": {
+    "/qwixx/assets/equals-solid.svg": "5ac20b1e04cbd01221e91e6c642953a08727a5a4",
+    "/qwixx/assets/icons/icon-128x128.png": "dae3b6ed49bdaf4327b92531d4b5b4a5d30c7532",
+    "/qwixx/assets/icons/icon-144x144.png": "b0bd89982e08f9bd2b642928f5391915b74799a7",
+    "/qwixx/assets/icons/icon-152x152.png": "7479a9477815dfd9668d60f8b3b2fba709b91310",
+    "/qwixx/assets/icons/icon-192x192.png": "1abd80d431a237a853ce38147d8c63752f10933b",
+    "/qwixx/assets/icons/icon-384x384.png": "329749cd6393768d3131ed6304c136b1ca05f2fd",
+    "/qwixx/assets/icons/icon-512x512.png": "559d9c4318b45a1f2b10596bbb4c960fe521dbcc",
+    "/qwixx/assets/icons/icon-72x72.png": "c457e56089a36952cd67156f9996bc4ce54a5ed9",
+    "/qwixx/assets/icons/icon-96x96.png": "3914125a4b445bf111c5627875fc190f560daa41",
+    "/qwixx/assets/minus-solid.svg": "a8b96ddaff9cd92b82a0b78de479939786fd2291",
+    "/qwixx/assets/plus-solid.svg": "e4e293d50de4be1bbd2b83e1023921ae26a51435",
+    "/qwixx/bootstrap-icons.35e09da2aecdd969.woff2": "17dad0776899ad1beadabd061c34e2a22b2cde74",
+    "/qwixx/bootstrap-icons.cb4c7c05f3292543.woff": "75919c717ce5c5bc716bc51705c0cd0b60f4bffc",
+    "/qwixx/favicon.ico": "22f6a4a3bcaafafb0254e0f2fa4ceb89e505e8b2",
+    "/qwixx/index.html": "e81b8af3e198bd2ccf05a528e91766b5efd4e6f5",
+    "/qwixx/main.11b409ee221c999a.js": "5786e295c5468e6d0db6f24b1c60b0505a9841d2",
+    "/qwixx/manifest.webmanifest": "77add9329efe176ca37d9f01932e0a5221e56e8f",
+    "/qwixx/polyfills.1354f926e0529e21.js": "c662e727cf304c01c952199cebd616b45e9e4dcf",
+    "/qwixx/runtime.9e7fa70dc5ff117a.js": "3e6985a17ae3b9640a44420b7ea7092a0e65ef2d",
+    "/qwixx/styles.9e5b4fd97a2ae8ed.css": "7ea733639dffa9b3c09b4752a84b68d8b380526f"
+  },
+  "navigationUrls": [
+    {
+      "positive": true,
+      "regex": "^\\/.*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*\\.[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*\\/.*$"
+    }
+  ],
+  "navigationRequestStrategy": "performance"
+}
