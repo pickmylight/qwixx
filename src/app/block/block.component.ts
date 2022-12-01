@@ -1,5 +1,4 @@
 import { Component, OnInit } from '@angular/core';
-import * as _ from "lodash";
 import { Game, Multiplier, Result, NumberItem } from '../models/block';
 
 @Component({
@@ -16,22 +15,22 @@ export class BlockComponent implements OnInit {
         this.game = {
             rows: [
                 {
-                    numbers: _.range(2, 13, 1).map(entry => { return { number: entry, locked: false } }),
+                    numbers: [...Array(11).keys()].map(entry => { return { number: entry+2, locked: false } }),
                     lock: false,
                     color: "red"
                 },
                 {
-                    numbers: _.range(2, 13, 1).map(entry => { return { number: entry, locked: false } }),
+                    numbers: [...Array(11).keys()].map(entry => { return { number: entry+2, locked: false } }),
                     lock: false,
                     color: "yellow"
                 },
                 {
-                    numbers: _.range(12, 1, -1).map(entry => { return { number: entry, locked: false } }),
+                    numbers: [...Array(11).keys()].map(entry => { return { number: entry+2, locked: false } }),
                     lock: false,
                     color: "green"
                 },
                 {
-                    numbers: _.range(12, 1, -1).map(entry => { return { number: entry, locked: false } }),
+                    numbers: [...Array(11).keys()].map(entry => { return { number: entry+2, locked: false } }),
                     lock: false,
                     color: "blue"
                 }
@@ -113,22 +112,22 @@ export class BlockComponent implements OnInit {
         this.game = {
             rows: [
                 {
-                    numbers: _.range(2, 13, 1).map(entry => { return { number: entry, locked: false } }),
+                    numbers: [...Array(11).keys()].map(entry => { return { number: entry+2, locked: false } }),
                     lock: false,
                     color: "red"
                 },
                 {
-                    numbers: _.range(2, 13, 1).map(entry => { return { number: entry, locked: false } }),
+                    numbers: [...Array(11).keys()].map(entry => { return { number: entry+2, locked: false } }),
                     lock: false,
                     color: "yellow"
                 },
                 {
-                    numbers: _.range(12, 1, -1).map(entry => { return { number: entry, locked: false } }),
+                    numbers: [...Array(11).keys()].map(entry => { return { number: entry+2, locked: false } }),
                     lock: false,
                     color: "green"
                 },
                 {
-                    numbers: _.range(12, 1, -1).map(entry => { return { number: entry, locked: false } }),
+                    numbers: [...Array(11).keys()].map(entry => { return { number: entry+2, locked: false } }),
                     lock: false,
                     color: "blue"
                 }
