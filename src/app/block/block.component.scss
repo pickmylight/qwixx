@@ -1,7 +1,6 @@
 .btn-lg {
     --bs-btn-border-width: 0.25rem;
     --bs-btn-font-size: 1rem;
-    --bs-btn-font-color: #000;
   }
 .btn-block {
     display: block;
@@ -27,4 +26,7 @@
     --bs-btn-active-color: var(--bs-btn-color);
     --bs-btn-active-bg: var(--bs-btn-bg);
     --bs-btn-active-border-color: var(--bs-btn-border-color);
+}
+.btn-input {
+    --bs-btn-color: #000;
 }

@@ -25,12 +25,12 @@ export class BlockComponent implements OnInit {
                     color: "yellow"
                 },
                 {
-                    numbers: [...Array(11).keys()].map(entry => { return { number: entry+2, locked: false } }),
+                    numbers: [...Array(11).keys()].map(entry => { return { number: 12-entry, locked: false } }),
                     lock: false,
                     color: "green"
                 },
                 {
-                    numbers: [...Array(11).keys()].map(entry => { return { number: entry+2, locked: false } }),
+                    numbers: [...Array(11).keys()].map(entry => { return { number: 12-entry, locked: false } }),
                     lock: false,
                     color: "blue"
                 }
@@ -122,12 +122,12 @@ export class BlockComponent implements OnInit {
                     color: "yellow"
                 },
                 {
-                    numbers: [...Array(11).keys()].map(entry => { return { number: entry+2, locked: false } }),
+                    numbers: [...Array(11).keys()].map(entry => { return { number: 12-entry, locked: false } }),
                     lock: false,
                     color: "green"
                 },
                 {
-                    numbers: [...Array(11).keys()].map(entry => { return { number: entry+2, locked: false } }),
+                    numbers: [...Array(11).keys()].map(entry => { return { number: 12-entry, locked: false } }),
                     lock: false,
                     color: "blue"
                 }
