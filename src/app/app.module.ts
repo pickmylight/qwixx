@@ -8,6 +8,7 @@ import { ResultComponent } from './result/result.component';
 import { BlockComponent } from './block/block.component';
 import { FormsModule } from '@angular/forms';
 import { ServiceWorkerModule } from '@angular/service-worker';
+import { environment } from 'src/environments/environment';
 
 @NgModule({
   declarations: [
@@ -21,7 +22,7 @@ import { ServiceWorkerModule } from '@angular/service-worker';
     NgbModule,
     FormsModule,
     ServiceWorkerModule.register('ngsw-worker.js', {
-      enabled: !isDevMode(),
+      enabled: environment.production,
       // Register the ServiceWorker as soon as the application is stable
       // or after 30 seconds (whichever comes first).
       registrationStrategy: 'registerWhenStable:30000'
