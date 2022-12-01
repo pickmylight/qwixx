@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1669935780314,
+  "timestamp": 1669937910623,
   "index": "/qwixx/index.html",
   "assetGroups": [
     {
@@ -13,11 +13,11 @@
       "urls": [
         "/qwixx/favicon.ico",
         "/qwixx/index.html",
-        "/qwixx/main.6cbd362853aea59f.js",
+        "/qwixx/main.4ab541941e7ab90b.js",
         "/qwixx/manifest.webmanifest",
         "/qwixx/polyfills.1354f926e0529e21.js",
         "/qwixx/runtime.0c5bc8284e297795.js",
-        "/qwixx/styles.9e5b4fd97a2ae8ed.css"
+        "/qwixx/styles.b44f95a341fa0e4a.css"
       ],
       "patterns": []
     },
@@ -62,12 +62,12 @@
     "/qwixx/bootstrap-icons.35e09da2aecdd969.woff2": "17dad0776899ad1beadabd061c34e2a22b2cde74",
     "/qwixx/bootstrap-icons.cb4c7c05f3292543.woff": "75919c717ce5c5bc716bc51705c0cd0b60f4bffc",
     "/qwixx/favicon.ico": "22f6a4a3bcaafafb0254e0f2fa4ceb89e505e8b2",
-    "/qwixx/index.html": "3a05892b04280228c4f9cc68a4169862897afc75",
-    "/qwixx/main.6cbd362853aea59f.js": "fa1743cb7ca5652d68f4d8819e0fa2bb546ffcd6",
+    "/qwixx/index.html": "0449acee922002c305b3b490cbda6d06a4f65b2b",
+    "/qwixx/main.4ab541941e7ab90b.js": "a8ae3e8bb10c1c3375a7e600adc85c1332c586ef",
     "/qwixx/manifest.webmanifest": "77add9329efe176ca37d9f01932e0a5221e56e8f",
     "/qwixx/polyfills.1354f926e0529e21.js": "c662e727cf304c01c952199cebd616b45e9e4dcf",
     "/qwixx/runtime.0c5bc8284e297795.js": "9dc4853efd8d0def8aa2e26952ff764392133afe",
-    "/qwixx/styles.9e5b4fd97a2ae8ed.css": "7ea733639dffa9b3c09b4752a84b68d8b380526f"
+    "/qwixx/styles.b44f95a341fa0e4a.css": "c571f8aef17f3f1f96e1fa147c207776eb7dfd47"
   },
   "navigationUrls": [
     {
