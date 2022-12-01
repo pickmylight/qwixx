@@ -1,0 +1,95 @@
+<div class="container-fluid h-75">
+  <div *ngFor="let row of game.rows" class="my-1" style="height: 25%;">
+    <div class="d-flex justify-content-between align-items-center bg-q{{row.color}} bg-tint py-1">
+      <div>
+        <i class="bi bi-caret-right-fill"></i>
+      </div>
+      <div *ngFor="let number of row.numbers">
+        <button type="button" class="btn btn-lg btn-block" (click)="tick(row.color, number.number)"
+          [ngClass]="button_color(row.color, number.locked)">{{number.number}}</button>
+      </div>
+      <div>
+        <i class="bi bi-caret-right-fill"></i>
+      </div>
+      <div>
+        <button type="button" class="btn btn-lg btn-lock btn-round" (click)="lock(row.color)" [ngClass]="button_color(row.color, row.lock)"><i
+            class="bi" [ngClass]="row_lock_color(row.lock)"></i></button>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="container-fluid h-25">
+  <div>
+    <div class="d-flex align-items-center justify-content-evenly">
+      <div class="d-flex">
+        <div class="card mx-2">
+          <div class="card-header">
+            Kreuze
+          </div>
+          <div class="align-self-center">
+            Punkte
+          </div>
+        </div>
+        <div class="card" *ngFor="let num of multiplier">
+          <div class="card-header">
+            {{num.times}}x
+          </div>
+          <div class="align-self-center">
+            {{num.points}}
+          </div>
+        </div>
+      </div>
+      <div>
+        <div class="d-flex justify-content-center">
+          Fehlwürfe je -5
+        </div>
+        <div class="d-flex">
+          <div *ngFor="let item of game.faults; index as i">
+            <button type="button" class="btn btn-block btn-outline-secondary m-1" [ngClass]="fault_state(i)" (click)="add_fault(i)" style="height:2rem;"></button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container-fluid bg-light align-content-center h-25 mt-1">
+      <div class="d-flex align-items-center justify-content-between">
+        <div class="flex-fill" (click)="reset()">
+          Ergebnis
+        </div>
+        <div class="m-1">
+          <input type="number" inputmode="numeric" [(ngModel)]="result.red" class="btn btn-lg btn-outline-qred" style="width:10vw;">
+        </div>
+        <div class="m-1">
+          <img src="../../assets/plus-solid.svg" style="width: 1rem;height:auto">
+        </div>
+        <div class="m-1">
+          <input type="number" inputmode="numeric" [(ngModel)]="result.yellow" class="btn btn-lg btn-outline-qyellow" style="width:10vw;">
+        </div>
+        <div class="m-1">
+          <img src="../../assets/plus-solid.svg" style="width: 1rem;height:auto">
+        </div>
+        <div class="m-1">
+          <input type="number" inputmode="numeric" [(ngModel)]="result.green" class="btn btn-lg btn-outline-qgreen" style="width:10vw;">
+        </div>
+        <div class="m-1">
+          <img src="../../assets/plus-solid.svg" style="width: 1rem;height:auto">
+        </div>
+        <div class="m-1">
+          <input type="number" inputmode="numeric" [(ngModel)]="result.blue" class="btn btn-lg btn-outline-qblue" style="width:10vw;">
+        </div>
+        <div class="m-1">
+          <img src="../../assets/minus-solid.svg" style="width: 1rem;height:auto">
+        </div>
+        <div class="m-1">
+          <input type="number" inputmode="numeric" [(ngModel)]="result.fault"
+            class="form-control btn btn-lg btn-outline-secondary" style="width:10vw;">
+        </div>
+        <div>
+          <img src="../../assets/equals-solid.svg" style="width:1rem; height:auto;">
+        </div>
+        <div class="mx-2">
+          <input type="number" inputmode="numeric"  [(ngModel)]="result.result" class="btn btn-lg btn-outline-dark" style="width:10vw;">
+        </div>
+      </div>
+  </div>
+</div>

@@ -1,0 +1,30 @@
+.btn-lg {
+    --bs-btn-border-width: 0.25rem;
+    --bs-btn-font-size: 1rem;
+    --bs-btn-font-color: #000;
+  }
+.btn-block {
+    display: block;
+    width: 95%;
+}
+.btn-lock {
+    --bs-btn-padding-x: 0.5rem;
+}
+.btn-round {
+    --bs-btn-border-radius: 3rem;
+}
+.bg-tint {
+    --bs-bg-opacity: 0.5;
+}
+.card-header {
+    --bs-card-cap-padding-x: 0.35rem;
+    --bs-card-cap-padding-y: 0.25rem;
+    font-size: 1rem;
+}
+.btn {
+    --bs-btn-hover-color: var(--bs-btn-color);
+    --bs-btn-hover-bg: var(--bs-btn-bg);
+    --bs-btn-active-color: var(--bs-btn-color);
+    --bs-btn-active-bg: var(--bs-btn-bg);
+    --bs-btn-active-border-color: var(--bs-btn-border-color);
+}
